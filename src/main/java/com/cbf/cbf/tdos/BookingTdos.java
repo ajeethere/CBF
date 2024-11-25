@@ -1,5 +1,6 @@
 package com.cbf.cbf.tdos;
 
+import com.cbf.cbf.annotations.FormatDate;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 

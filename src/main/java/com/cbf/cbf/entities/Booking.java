@@ -1,5 +1,7 @@
 package com.cbf.cbf.entities;
 
+import com.cbf.cbf.annotations.AppendBrand;
+import com.cbf.cbf.annotations.FormatDate;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
@@ -18,6 +20,7 @@ public class Booking {
     private String date;
     private boolean active;
     private Date createdAt;
+    @FormatDate(pattern = "dd-MMM-yyyy") // Specify the required date format
     private Date updatedAt;
 
     @ManyToOne

@@ -1,5 +1,6 @@
 package com.cbf.cbf.controllers;
 
+import com.cbf.cbf.annotations.LogExecutionTime;
 import com.cbf.cbf.entities.Booking;
 import com.cbf.cbf.entities.Fair;
 import com.cbf.cbf.entities.User;
