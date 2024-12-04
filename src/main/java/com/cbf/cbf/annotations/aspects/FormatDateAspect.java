@@ -25,7 +25,7 @@ public class FormatDateAspect {
                 FormatDate annotation = field.getAnnotation(FormatDate.class);
                 String pattern = annotation.pattern();
                 SimpleDateFormat dateFormat = new SimpleDateFormat(pattern);
-
+ 
                 field.setAccessible(true); // Allow access to private fields
                 try {
                     Object value = field.get(entity);

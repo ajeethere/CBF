@@ -1,6 +1,5 @@
 package com.cbf.cbf.entities;
 
-import com.cbf.cbf.annotations.AppendBrand;
 import com.cbf.cbf.annotations.FormatDate;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
